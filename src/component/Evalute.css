@@ -1,0 +1,97 @@
+/* EvaluateRule.css */
+.evaluate-rule-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .rule-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .rule-dropdown:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .selected-rule {
+    background-color: #e8f5e9;
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .selected-rule h3 {
+    margin: 0 0 10px;
+    color: #2e7d32;
+  }
+  
+  .user-data-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .user-data-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .evaluate-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .evaluate-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .evaluate-button:hover:not(:disabled) {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }
+  
+  .response-message {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  
